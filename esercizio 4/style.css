@@ -1,0 +1,32 @@
+h1{
+    color: azure;
+    font-size: larger;
+}
+h2{
+    color: rgb(157, 118, 208);
+    font-size: medium;
+}
+p {
+color: rgb(108, 53, 163);
+}
+a {
+color: dodgerblue;
+}
+a:hover {
+    color: rgb(132, 0, 255);
+}
+.testa{
+    background: rgb(67, 60, 108)
+}
+.main {
+    background: rgb(0, 0, 0);
+}
+.footer {
+    background: rgb(26, 10, 46);
+}
+
+img {
+    border:  4px solid violet;
+    margin: 1cm;
+    padding: 1cm;
+}
