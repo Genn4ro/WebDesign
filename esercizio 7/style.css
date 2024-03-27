@@ -1,0 +1,30 @@
+.one{
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+}
+.one:hover{
+    background-color: chartreuse;
+    translate: 50px;
+}
+.two{
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    animation-duration: 1s;
+    animation-name: square;
+    animation-iteration-count: infinite;
+}
+@-webkit-keyframes "square"{
+    0%{
+        background-color: blue;
+    }
+    50%{
+        background-color: red;
+    }
+    100%{
+        background-color: blue;
+    }
+}
